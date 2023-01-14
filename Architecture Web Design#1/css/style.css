@@ -1,0 +1,114 @@
+/* variables */
+:root {
+    --primary: #000;
+    --secondary: #e67e00;
+}
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    /*border: 1px #fff dotted;*/
+}
+
+/* base styles*/
+body {
+    background: #000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px;
+}
+
+/* mobile styles */
+.NAVBAR {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows: minmax(50px,auto);
+    border-bottom: 1px rgb(72, 72, 72) solid;
+    height: 50px;
+}
+
+.HAMBURGER {
+    align-self: center;
+    text-align: center;
+    grid-column: 1/2;
+    cursor: pointer;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.BAR {
+    background: white;
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin-top: 7px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+
+
+}
+
+
+.LOGO {
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    align-self: center;
+    grid-column: 3/11;
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.CONTACT {
+    align-self: center;
+    text-align: center;
+    grid-column: 12/13;
+    padding-right: 5px;
+}
+
+.CONTACT button {
+    background: var(--primary);
+    height: 50px;
+    color: rgb(132, 132, 132);
+    font-size: 16px;
+    font-weight: bold;
+    border-left: 1px rgb(72, 72, 72) solid;
+    border-width: 0 0 0 0;
+    cursor: pointer;
+
+}
+
+.CONTACT button:active {
+    color: var(--secondary);
+}
+
+.SECTION_ONE {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows: minmax(25px,auto);
+}
+
+.IMAGE1 {
+   grid-column: 6;
+   grid-row: 2;
+   max-width: 350px;
+   max-height: 350px;
+   border-radius: 25px;
+}
+
+/* small tablet styles*/
+@media screen and (min-width: 620px) {
+
+}
+
+/* large tablets and laptops */
+@media screen and (min-width: 900px) {
+
+}
+
+/* desktops styles */
+@media screen and (min-width: 1200px) {
+
+}
