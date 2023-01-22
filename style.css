@@ -12,7 +12,7 @@ html {
 
 .navigation {
     display: grid;
-    grid-template-columns:11% 78% 11%;
+    grid-template-columns:10% 78% 10%;
     grid-template-rows: 50px;
     background: rgb(25, 25, 25);
     box-shadow: 0px 3px 8px black; 
@@ -40,8 +40,8 @@ img.nav-menu {
 .icon-wrapper {
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: -25px;
 }
 
 img.instagram {
@@ -123,4 +123,27 @@ img.my-story {
 .image-wrapper {
     margin-right: 50px;
     margin-left: 50px;
+}
+
+.two-item-div {
+    margin-bottom: auto;
+    display: grid;
+    gap: 5px;
+
+
+}
+
+footer {
+    background:rgb(25, 25, 25);
+    color: white;
+    box-shadow: 0px 3px 8px black; 
+
+}
+
+.footer-info {
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow:  5px 5px 10px black;
 }
