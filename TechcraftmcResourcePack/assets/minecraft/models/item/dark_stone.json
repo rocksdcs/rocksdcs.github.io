@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block",
+  "textures": {
+    "layer0": "minecraft:block/dark_stone"
+  }
+}
